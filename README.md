@@ -1,6 +1,6 @@
 # Pantropical landuse Model Documentation
 
-This document describes the pantropical land use model used for monitoring land use following deforestation using remote sensing and deep learning.
+This document describes the pantropical land use model used for monitoring land use following deforestation using remote sensing.
 
 ## Model Overview
 
