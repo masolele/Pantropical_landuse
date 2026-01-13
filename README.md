@@ -11,7 +11,7 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 - **Base Architecture**: Attention U-Net with multi-input fusion
 - **Original Framework**: TensorFlow 2.10.0
 
-## Installation & Dependencies
+## Installation & Dependencies for local users
 
 Create and activate the virtual environment and install the package as follows:
 
@@ -21,6 +21,26 @@ mamba create -n tf214_py39 python=3.9 tensorflow=2.14.0 onnx tf2onnx ipykernel -
 Then install these packages as well:
  ```
 mamba install earthengine-api geemap rasterio numpy matplotlib ipywidgets onnxruntime requests folium pyproj tqdm -q
+```
+
+## Installation & Running the notebook on colab
+
+Open this notebook colab https://colab.research.google.com/drive/1B6x3lQJWMu3iwS3iYbIFA1OHx8BQ2DpP#scrollTo=OHzOEaWRps0z and follow instractions:
+
+```
+#The notebook features:
+
+🖼️ Draw or upload a Region of Interest (ROI) on an interactive map
+
+🧠 Automatically selects AI model based on location (Africa, Southeast Asia, Latin America)
+
+🛰️ Downloads and preprocesses Sentinel-1 + Sentinel-2 + elevation + indices
+
+🌾 Predicts land use categories over deforested areas only using ONNX models
+
+🗺️ Side-by-side map of RGB imagery + follow-up land use prediction
+
+📤 Export predictions as GeoTIFF for GIS analysis
 ```
 
 ## Model Input Specifications
