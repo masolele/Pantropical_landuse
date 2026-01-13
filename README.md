@@ -28,7 +28,7 @@ mamba install earthengine-api geemap rasterio numpy matplotlib ipywidgets onnxru
 Run the analysis interactively in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/<USERNAME>/<REPO>/blob/main/Land_Use_Following_Deforestation_MonitorV1.ipynb
+https://colab.research.google.com/github/masolele/Pantropical_landuse/blob/main/Land_Use_Following_Deforestation_MonitorV1.ipynb
 )
 Open this notebook colab https://colab.research.google.com/drive/1B6x3lQJWMu3iwS3iYbIFA1OHx8BQ2DpP#scrollTo=OHzOEaWRps0z and follow instractions:
 
