@@ -11,7 +11,19 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 - **Base Architecture**: Attention U-Net with multi-input fusion
 - **Original Framework**: TensorFlow 2.10.0
 
-## Input Specifications
+## Installation & Dependencies
+
+Create and activate the virtual environment and install the package as follows:
+
+```
+mamba create -n tf214_py39 python=3.9 tensorflow=2.14.0 onnx tf2onnx ipykernel -c conda-forge -y && mamba activate tf214_py39 && python -m ipykernel install --user --name=tf214_py39 --display-name="TF 2.14 + ONNX"
+```
+Then install these packages as well:
+ ```
+mamba install earthengine-api geemap rasterio numpy matplotlib ipywidgets onnxruntime requests folium pyproj tqdm -q
+```
+
+## Model Input Specifications
 
 The model expects a single input tensor with the following specifications:
 
@@ -56,7 +68,7 @@ The 17 input channels are organized as follows:
 - **Data Type**: float32 (elem_type: 1)
 
 ### Crop Classes
-The model predicts 1 crop type. Each pixel in the output contains a probability distribution over this class.
+The model predicts 25, 22, and 23 land use types for Africa, Latin America, and Southeast Asia, respectively. Each pixel in the output contains a probability distribution over this class.
 
 Example format for each pixel:
 ```python
