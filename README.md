@@ -91,8 +91,8 @@ The 17 input channels are organized as follows:
   - Classes: 1 (probability distribution over crop type)
 - **Data Type**: float32 (elem_type: 1)
 
-### Land use following deforestation Classes
-The model predicts 25, 22, and 24 land use types for Africa, Latin America, and Southeast Asia, respectively. Each pixel in the output contains a probability distribution over this class.
+### Land use following deforestation classes
+The model output is variable depending on the region. The model predicts 25, 22, and 24 land use types for Africa, Latin America, and Southeast Asia, respectively. Each pixel in the output contains a probability distribution over this class.
 
 Example format for each pixel:
 ```python
