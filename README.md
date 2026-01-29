@@ -180,7 +180,7 @@ The model processes the 15 input channels by splitting them into three groups, e
 2. **Channels 12–13 (2 channels):** Handled by a second U-Net-like structure, mirroring the first.
 3. **Channels 14–16 (3 channels):** Fed into a dense (fully connected) network to generate features, likely used as attention maps to guide the U-Nets.
 
-These pathways are fused together, with attention mechanisms emphasizing key regions, to produce a final segmentation map. This design is ideal for tasks where input channels represent diverse information, such as medical imaging or satellite imagery.
+These pathways are fused together, with attention mechanisms emphasizing key regions, to produce a final segmentation map. This design is ideal for tasks where input channels represent diverse information, such as optical, radar satellite imagery and location information.
 
 ---
 
@@ -260,9 +260,9 @@ Each group follows a unique processing path.
 ## Design Philosophy
 
 This architecture is tailored for:
-- **Multi-Channel Inputs:** Handles diverse data types across 15 channels.
+- **Multi-Channel Inputs:** Handles diverse data types across 17 channels.
 - **Attention-Driven Focus:** Improves accuracy by emphasizing important regions.
-- **Detailed Segmentation:** Preserves spatial details via U-Net skip connections, perfect for tasks like medical or land-use segmentation.
+- **Detailed Segmentation:** Preserves spatial details via U-Net skip connections.
 
 ---
 
@@ -271,4 +271,4 @@ This architecture is tailored for:
 The `Attention_UNet_Fusion` model combines three U-Nets
 network to process a 17-channel, 64x64 input. Channels 0–11, 12–13 and 14 - 16
 re handled by U-Nets for feature extraction, while channels 12–14 guide 
-attention via a dense network. The fused output becomes a 64x64 segmentation map with 1 class, making it a tool for binary image segmentation tasks.
+attention via a dense network. The fused output becomes a 64x64 segmentation map with 1 class for each pixel.
