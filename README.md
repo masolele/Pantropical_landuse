@@ -172,7 +172,7 @@ predicted_classes = np.argmax(predictions, axis=-1)
 ## Models
 
 Due to storage limitation on github, the models are found at:
-- **Africa**: url = {https://huggingface.co/datasets/Masolele/deforestwatch-models/blob/main/best_weights_att_unet_lagtime_5_Fused3_2023_totalLoss6V1_without_loss_sentAfrica6.onnx}
+- **Africa**: {[Model](https://huggingface.co/datasets/Masolele/deforestwatch-models/blob/main/best_weights_att_unet_lagtime_5_Fused3_2023_totalLoss6V1_without_loss_sent_Southeast_Asia23.onnx)}
 - **Southeast Asia**: url = {https://huggingface.co/datasets/Masolele/deforestwatch-models/blob/main/best_weights_att_unet_lagtime_5_Fused3_2023_totalLoss6V1_without_loss_sent_Latin_America56.onnx}
 - **Latin America**: url = {https://huggingface.co/datasets/Masolele/deforestwatch-models/blob/main/best_weights_att_unet_lagtime_5_Fused3_2023_totalLoss6V1_without_loss_sent_Southeast_Asia23.onnx}
 
