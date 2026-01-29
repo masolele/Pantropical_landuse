@@ -9,9 +9,25 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 ### Model Architecture
 
 - **Base Architecture**: Attention U-Net with multi-input fusion
-- **Original Framework**: TensorFlow 2.10.0
+- **Original Framework**: TensorFlow 2.14.0
 
-## Installation & Dependencies for local users
+### Prerequisites
+
+- Python >= 3.9
+- Mamba (recommended for environment management)
+- CUDA-compatible GPU
+
+## Key Dependencies for local users
+
+- **Tensorflow and Keras**: Deep learning framework
+- **Scikit-learn**: Machine learning models (Ridge, Random Forest)
+- **Numpy**: Data manipulation
+- **Rasterio**: I/O georeferencing
+- **Google Earth Engine**: For satellite data and elevation data access
+- **Geemap**: Data download
+- **Matplotlib**: For plotting
+
+## Installation
 
 Create and activate the virtual environment and install the package as follows:
 
