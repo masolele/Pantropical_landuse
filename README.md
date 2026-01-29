@@ -79,7 +79,7 @@ The 17 input channels are organized as follows:
    - Latitude (normalized to [-60, 60] range)
 
 4. **Additional Features** (Channel 14):
-   - Derived indices (NDVI, EVI, NDRI)???
+   - Derived indices (NDVI, EVI, NDRE)
 
 ## Output Specifications
 
