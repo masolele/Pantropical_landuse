@@ -169,6 +169,12 @@ predictions = session.run([output_name], {input_name: input_data})[0]
 # Get predicted class
 predicted_classes = np.argmax(predictions, axis=-1)
 ```
+## Models
+
+Due to storage limitation on github, the models are found at:
+- **Africa**: url = {https://huggingface.co/datasets/Masolele/deforestwatch-models/resolve/main/best_weights_att_unet_lagtime_5_Fused3_2023_totalLoss6V1_without_loss_sentAfrica6.onnx}
+- **Southeast Asia**: url = {https://huggingface.co/datasets/Masolele/deforestwatch-models/resolve/main/best_weights_att_unet_lagtime_5_Fused3_2023_totalLoss6V1_without_loss_sent_Latin_America56.onnx}
+- **Latin America**: url = {https://huggingface.co/datasets/Masolele/deforestwatch-models/resolve/main/best_weights_att_unet_lagtime_5_Fused3_2023_totalLoss6V1_without_loss_sent_Southeast_Asia23.onnx}
 
 ## Model Performance Notes
 
@@ -288,3 +294,6 @@ The `Land use following deforestation model` combines three U-Nets
 network to process a 17-channel, 64x64 input. Channels 0–11, 12–13 and 14 - 16
 re handled by U-Nets for feature extraction, while channels 12–14 guide 
 attention via a dense network. The fused output becomes a 64x64 segmentation map with 1 class for each pixel.
+
+## Contact
+For questions or issues, please open an issue on GitHub
