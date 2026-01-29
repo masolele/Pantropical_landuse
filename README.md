@@ -295,5 +295,8 @@ network to process a 17-channel, 64x64 input. Channels 0–11, 12–13 and 14 - 
 re handled by U-Nets for feature extraction, while channels 12–14 guide 
 attention via a dense network. The fused output becomes a 64x64 segmentation map with 1 class for each pixel.
 
+## License
+This work is licensed under the Apache License 2.0 - please see the [LICENSE](LICENSE) file for details.
+
 ## Contact
 For questions or issues, please open an issue on GitHub
