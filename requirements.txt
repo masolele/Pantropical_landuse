@@ -1,6 +1,7 @@
 python ==3.9
 tensorflow==2.14.0
 numpy ==2.14.0
+scikit-learn
 earthengine-api 
 geemap 
 rasterio 
