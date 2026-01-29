@@ -92,7 +92,7 @@ The 17 input channels are organized as follows:
 - **Data Type**: float32 (elem_type: 1)
 
 ### Crop Classes
-The model predicts 25, 22, and 23 land use types for Africa, Latin America, and Southeast Asia, respectively. Each pixel in the output contains a probability distribution over this class.
+The model predicts 25, 22, and 24 land use types for Africa, Latin America, and Southeast Asia, respectively. Each pixel in the output contains a probability distribution over this class.
 
 Example format for each pixel:
 ```python
@@ -103,6 +103,13 @@ classes = [
     8:'Coffee', 9:'Build_up', 10:'Water', 11:'Oil_palm', 12:'Rubber', 13:'Cocoa', 14:'Avocado', 15:'Soy', 16:'Sugar', 17:'Maize', 18:'Banana', 19:'Pineapple',
     20:'Rice', 21:'Wood_logging', 22:'Cashew', 23:'Tea', 24:'Others'
 
+Latin America
+classes = [
+    # Land use classes
+    0: "Background", 1: "Other large-scale cropland", 2: "Pasture", 3:'Mining', 4:'Other small-scale cropland', 5:'Roads', 6:'Other land with tree cover/Regrowth', 7:'Plantation forest',
+    8:'Coffee', 9:'Build_up', 10:'Water', 11:'Oil_palm', 12:'Rubber', 13:'Cocoa', 14:'Avocado', 15:'Soy', 16:'Sugar', 17:'Maize', 18:'Banana', 19:'Pineapple',
+    20:'Rice', 21:'Wood_logging'
+
 Southeast Asia
 classes = [
     # Land use classes
@@ -110,12 +117,6 @@ classes = [
     8:'Coffee', 9:'Build_up', 10:'Water', 11:'Oil_palm', 12:'Rubber', 13:'Cocoa', 14:'Clove', 15:'Soy', 16:'Sugar', 17:'Maize', 18:'Banana', 19:'Pineapple',
     20:'Rice', 21:'Wood_logging', 22:'Cashew', 23:'Tea'
 
-Latin America
-classes = [
-    # Land use classes
-    0: "Background", 1: "Other large-scale cropland", 2: "Pasture", 3:'Mining', 4:'Other small-scale cropland', 5:'Roads', 6:'Other land with tree cover/Regrowth', 7:'Plantation forest',
-    8:'Coffee', 9:'Build_up', 10:'Water', 11:'Oil_palm', 12:'Rubber', 13:'Cocoa', 14:'Avocado', 15:'Soy', 16:'Sugar', 17:'Maize', 18:'Banana', 19:'Pineapple',
-    20:'Rice', 21:'Wood_logging'
 ]
 ```
 
@@ -132,14 +133,14 @@ The model was converted from TensorFlow to ONNX using `tf2onnx` with the followi
 - All operations successfully mapped to ONNX operators
 
 
-## Usage Example
+## Usage Example (Actual usage refer to interactive notebook)
 
 ```python
 import onnxruntime as ort
 import numpy as np
 
 # Load the ONNX model
-session = ort.InferenceSession("comcrop_udf_test.onnx")
+session = ort.InferenceSession("Land_use_following_deforestation_model.onnx")
 
 # Prepare input data (example)
 input_data = np.random.rand(1, 64, 64, 17).astype(np.float32)
