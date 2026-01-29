@@ -1,6 +1,5 @@
-python ==3.9.0
-Tensorflow ==
-
-numpy
+python ==3.9
+tensorflow==2.14.0
+numpy ==2.14.0
 
 
