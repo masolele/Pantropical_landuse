@@ -268,7 +268,7 @@ This architecture is tailored for:
 
 ## Summary
 
-The `Attention_UNet_Fusion` model combines three U-Nets
+The `Land use following deforestation model` combines three U-Nets
 network to process a 17-channel, 64x64 input. Channels 0–11, 12–13 and 14 - 16
 re handled by U-Nets for feature extraction, while channels 12–14 guide 
 attention via a dense network. The fused output becomes a 64x64 segmentation map with 1 class for each pixel.
