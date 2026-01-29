@@ -96,10 +96,25 @@ The model predicts 25, 22, and 23 land use types for Africa, Latin America, and 
 
 Example format for each pixel:
 ```python
+Africa
 classes = [
-    # Add crop classes here
-    "class_0",  # e.g., "Oil Palm"
-    "class_1",  # e.g., "Other"
+    # Land use classes
+    1: "Other large-scale cropland", 2: "Pasture", 3:'Mining', 4:'Other small-scale cropland', 5:'Roads', 6:'Other land with tree cover/Regrowth', 7:'Plantation forest',
+    8:'Coffee', 9:'Build_up', 10:'Water', 11:'Oil_palm', 12:'Rubber', 13:'Cocoa', 14:'Avocado', 15:'Soy', 16:'Sugar', 17:'Maize', 18:'Banana', 19:'Pineapple',
+    20:'Rice', 21:'Wood_logging', 22:'Cashew', 23:'Tea', 24:'Others'
+
+Southeast Asia
+classes = [
+    # Land use classes
+    1: "Other large-scale cropland", 2: "Pasture", 3:'Mining', 4:'Other small-scale cropland', 5:'Roads', 6:'Other land with tree cover/Regrowth', 7:'Plantation forest',
+    8:'Coffee', 9:'Build_up', 10:'Water', 11:'Oil_palm', 12:'Rubber', 13:'Cocoa', 14:'Clove', 15:'Soy', 16:'Sugar', 17:'Maize', 18:'Banana', 19:'Pineapple',
+    20:'Rice', 21:'Wood_logging', 22:'Cashew', 23:'Tea'
+
+classes = [
+    # Land use classes
+    1: "Other large-scale cropland", 2: "Pasture", 3:'Mining', 4:'Other small-scale cropland', 5:'Roads', 6:'Other land with tree cover/Regrowth', 7:'Plantation forest',
+    8:'Coffee', 9:'Build_up', 10:'Water', 11:'Oil_palm', 12:'Rubber', 13:'Cocoa', 14:'Avocado', 15:'Soy', 16:'Sugar', 17:'Maize', 18:'Banana', 19:'Pineapple',
+    20:'Rice', 21:'Wood_logging'
 ]
 ```
 
