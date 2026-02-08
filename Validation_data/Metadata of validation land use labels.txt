@@ -1,4 +1,4 @@
-Pantropical validation data (6,040 points) distributed across three regions: Africa (2,060), Latin America (2,017), and Southeast Asia (1,963).
+Pantropical validation data (6,038 points) distributed across three regions: Africa (2,060), Latin America (2,015), and Southeast Asia (1,963).
 
 DESCRIPTION OF FIELD IDs IN THE VALIDATION SHAPEFILE
 Pred_LU: Predicted land use classs
