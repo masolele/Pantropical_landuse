@@ -1,4 +1,9 @@
-Below is the list of ids of land use following deforestation and the corresponding labels  : 
+DESCRIPTION OF FIELD IDs IN THE VALIDATION SHAPEFILE
+Pred_LU: Predicted land use classs
+Obs_LU: Observed land use class
+Obs_name: Name of observed land use class
+
+BELOW IS THE LIST OF IDs OF LAND USE FOLLOWING DEFORESTATION AND THE CORRESPONDING LABELS/NAMES  : 
 
 [1: Other large-scale cropland,
 2: Pasture, 
@@ -22,5 +27,6 @@ Below is the list of ids of land use following deforestation and the correspondi
 21: Wood/logging
 22: Cashew
 23: Tea
+24: Clove
 ] 
 
