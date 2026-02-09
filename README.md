@@ -27,7 +27,8 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 - **Geemap**: Data download
 - **Matplotlib**: For plotting
 
-## Installation
+## You can run the model either locally or via Colab. Below I provide both options. With the Colab option you can run the model prediction interactivel and step by step code is provided, offcourse you can adapt it to your own environment.
+## Installation on local machine
 
 Create and activate the virtual environment and install the package as follows:
 
@@ -39,9 +40,9 @@ Then install these packages as well:
 mamba install earthengine-api geemap rasterio numpy matplotlib ipywidgets onnxruntime requests folium pyproj tqdm -q
 ```
 
-## Interactive notebook
+## Running the model on an interactive notebook in Google Colab
 
-Follow the instructions and run the analysis interactively in Google Colab:
+Click the link below and follow the instructions to run the analysis interactively in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/masolele/Pantropical_landuse/blob/main/Land_Use_Following_Deforestation_MonitorV1.ipynb
