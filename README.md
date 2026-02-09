@@ -27,7 +27,7 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 - **Geemap**: Data download
 - **Matplotlib**: For plotting
 
-## You can run the model either locally or via Colab. Below I provide both options. With the Colab option you can run the model prediction interactivel and step by step code is provided, offcourse you can adapt it to your own environment.
+### You can run the model either locally or via Colab. Below I provide both options. With the Colab option you can run the model prediction interactivel and step by step code is provided, offcourse you can adapt it to your own environment.
 ## Installation on local machine
 
 Create and activate the virtual environment and install the package as follows:
