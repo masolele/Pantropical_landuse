@@ -23,7 +23,7 @@ A standard computer with a minimum of 16GB RAM to support the in-memory operatio
 ## Key Dependencies for local users
 
 - **Tensorflow and Keras**: Deep learning framework
-- **Scikit-learn**: Machine learning models
+- **Scikit-learn**: Machine learning
 - **Numpy**: Data manipulation
 - **Rasterio**: I/O georeferencing
 - **Google Earth Engine**: For satellite data and elevation data access
