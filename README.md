@@ -1,10 +1,10 @@
 # Pantropical landuse Model Documentation
 
-This document describes the pantropical land use model used for monitoring land use following deforestation using remote sensing.
+This document describes the pantropical land-use model for monitoring land use after deforestation using remote sensing.
 
 ## Model Overview
 
-The model is an Attention U-Net with fusion mechanisms, specifically designed for land use monitoring using multi-source satellite data (Sentinel-1 and Sentinel-2) along with geographical information (Latitude + Longitudes + elevation).
+The model is an Attention U-Net with fusion mechanisms, specifically designed for land-use monitoring using multi-source satellite data (Sentinel-1 and Sentinel-2) and geographic information (latitude, longitude, and elevation).
 
 ### Model Architecture
 
@@ -27,7 +27,7 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 - **Geemap**: Data download
 - **Matplotlib**: For plotting
 
-### You can run the model either locally or via Colab. Below I provide both options. With the Colab option you can run the model prediction interactivel and step by step code is provided, offcourse you can adapt it to your own environment.
+### You can run the model either locally or via Colab. Below I provide both options. With the Colab option, you can run the model prediction interactively, and step-by-step code is provided. Of course, you can adapt it to your own environment.
 ## Installation on local machine
 
 Create and activate the virtual environment and install the package as follows:
