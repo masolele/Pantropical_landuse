@@ -11,7 +11,10 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 - **Base Architecture**: Attention U-Net with multi-input fusion
 - **Original Framework**: TensorFlow 2.14.0
 
-### Prerequisites
+### Hardware requirements
+A standard computer with a minimum of 16GB RAM to support the in-memory operations.
+
+### Software requirements
 
 - Python >= 3.9
 - Mamba (recommended for environment management)
