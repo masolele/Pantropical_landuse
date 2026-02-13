@@ -4,7 +4,7 @@ This document describes the pantropical land use model used for monitoring land 
 
 ## Model Overview
 
-The model is an Attention U-Net with fusion mechanisms, specifically designed for land use monitoring using multi-source satellite data (Sentinel-1 and Sentinel-2) along with geographical information.
+The model is an Attention U-Net with fusion mechanisms, specifically designed for land use monitoring using multi-source satellite data (Sentinel-1 and Sentinel-2) along with geographical information (Latitude + Longitudes + elevation).
 
 ### Model Architecture
 
