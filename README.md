@@ -56,7 +56,7 @@ https://colab.research.google.com/github/masolele/Pantropical_landuse/blob/main/
 
 🧠 Automatically selects AI model based on location (Africa, Southeast Asia, Latin America)
 
-🛰️ Downloads and preprocesses Sentinel-1 + Sentinel-2 + elevation + indices
+🛰️ Downloads and preprocesses Sentinel-2 + indices + Sentinel-1 + loacation information (Latitude + Longitudes + elevation)
 
 🌾 Predicts land use categories over deforested areas only using ONNX models
 
