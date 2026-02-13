@@ -138,20 +138,7 @@ classes = [
 ]
 ```
 
-## Model Conversion Details
-
-The model was converted from TensorFlow to ONNX using `tf2onnx` with the following specifications:
-- Original model: TensorFlow SavedModel/HDF5 format
-- Target ONNX opset: 13
-- Conversion tool: tf2onnx version 1.16.1
-
-### Conversion Validation
-- Maximum numerical difference between TensorFlow and ONNX outputs: 5.66e-06
-- Validation performed using random input data
-- All operations successfully mapped to ONNX operators
-
-
-## Usage Example (Actual usage refer to interactive notebook)
+## Usage Example (Actual usage refers to the  interactive notebook)
 
 ```python
 import onnxruntime as ort
