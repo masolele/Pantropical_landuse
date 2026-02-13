@@ -43,7 +43,7 @@ mamba install earthengine-api geemap rasterio numpy matplotlib ipywidgets onnxru
 
 ## Running the model on an interactive notebook in Google Colab (Everything is set and redy to run)
 
-Click the link below and follow the instructions to run the analysis interactively in Google Colab:
+Click the link below and follow the instructions to run the analysis interactively in Google Colab notebook:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/masolele/Pantropical_landuse/blob/main/Land_Use_Following_Deforestation_MonitorV1.ipynb
