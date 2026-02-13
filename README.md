@@ -41,7 +41,7 @@ Then install these packages as well:
 mamba install earthengine-api geemap rasterio numpy matplotlib ipywidgets onnxruntime requests folium pyproj tqdm -q
 ```
 
-## Running the model on an interactive notebook in Google Colab (Everything is set and redy to run)
+## Running the model on an interactive notebook in Google Colab (Everything is set and ready to run)
 
 Click the link below and follow the instructions to run the analysis interactively in Google Colab notebook:
 
