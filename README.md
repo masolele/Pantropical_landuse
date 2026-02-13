@@ -20,7 +20,7 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 ## Key Dependencies for local users
 
 - **Tensorflow and Keras**: Deep learning framework
-- **Scikit-learn**: Machine learning models (Ridge, Random Forest)
+- **Scikit-learn**: Machine learning models
 - **Numpy**: Data manipulation
 - **Rasterio**: I/O georeferencing
 - **Google Earth Engine**: For satellite data and elevation data access
@@ -31,6 +31,7 @@ The model is an Attention U-Net with fusion mechanisms, specifically designed fo
 ## Installation on local machine
 
 Create and activate the virtual environment and install the package as follows:
+Approximate install time is 1 hour
 
 ```
 mamba create -n tf214_py39 python=3.9 tensorflow=2.14.0 onnx tf2onnx ipykernel -c conda-forge -y && mamba activate tf214_py39 && python -m ipykernel install --user --name=tf214_py39 --display-name="TF 2.14 + ONNX"
@@ -40,7 +41,7 @@ Then install these packages as well:
 mamba install earthengine-api geemap rasterio numpy matplotlib ipywidgets onnxruntime requests folium pyproj tqdm -q
 ```
 
-## Running the model on an interactive notebook in Google Colab
+## Running the model on an interactive notebook in Google Colab (Everything is set and redy to run)
 
 Click the link below and follow the instructions to run the analysis interactively in Google Colab:
 
